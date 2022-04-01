@@ -16,24 +16,30 @@ Precisa mostrar na tela: (url: https://api.github.com/users/<nome_do_usuario>)
 
 ## Restrições
 
-- [ ] Somente utilizar um único componente (App.tsx)
-- [ ] Utilizar estilo css próprio e pelo menos um componente do [Bootstrap](https://getbootstrap.com/) (já está importado o css no index.html)
-- [ ] Utilizar metodo fetch (asíncrono) para requisições HTTP
+- [x] Somente utilizar um único componente (app.component.ts)
+- [x] Utilizar estilo css próprio e pelo menos um componente do [Bootstrap](https://getbootstrap.com/) (já está importado o css no index.html)
+- [x] Utilizar metodo fetch (asíncrono) para requisições HTTP
 
 ## Features
 
-- [ ] Poder inserir um username do github para pesquisar
-- [ ] Clicar em um botão de busca (Search) para ter acesso a informação sobre o username
-- [ ] Ver o avatar, username, nome, quantidade de seguidores e repositórios públicos do username pesquisado
-- [ ] Ver os 4 repositórios mais recentes
-- [ ] Receber uma notificação (alerta) se o usuário for inválido / inexistente
+- [x] Poder inserir um username do github para pesquisar
+- [x] Clicar em um botão de busca (Search) para ter acesso a informação sobre o username
+- [x] Ver o avatar, username, nome, quantidade de seguidores e repositórios públicos do username pesquisado
+- [x] Ver os 4 repositórios mais recentes
+- [x] Receber uma notificação (alerta) se o usuário for inválido / inexistente
 
 ## Extra Features
 
-- [ ] Mostrar uma lista de usuários pesquisados (ordenação por critério de sua preferência)
-- [ ] Incluir link para perfil do usuário e dos repositórios
-- [ ] Mudar filtro dos top 4 repositórios (updated_at / stargazers_count / forks_count)
-- [ ] Persistir lista de usuários no último acesso (utilizando local storage por exemplo)
+- [x] Mostrar uma lista de usuários pesquisados (ordenação por critério de sua preferência)
+- [x] Incluir link para perfil do usuário e dos repositórios
+- [x] Mudar filtro dos top 4 repositórios (updated_at / stargazers_count / forks_count)
+- [x] Persistir lista de usuários no último acesso (utilizando localstorage por exemplo)
+- [x] Limpar lista de perfis ao clicar no botão clear
+
+- [x] Não pesquisar usuário já pesquisado e na lista
+- [x] Digitar enter durante busca também busca o perfil por username
+- [x] Recuperar lista de usuários no último acesso do localstorage (se houver)
+- [x] Limpar localstorage quando limpar perfis
 
 ## Links Úteis
 
